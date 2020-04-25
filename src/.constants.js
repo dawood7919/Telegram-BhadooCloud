@@ -17,7 +17,7 @@ module.exports = Object.freeze({
   }, // not required
   DOWNLOAD_NOTIFY_TARGET: {  // Information about the web service to notify on download completion. not required
     enabled: false,   // Set this to true to use the notify functionality
-    host: 'domain here',
+    host: '',
     port: 80,
     path: '/botNotify'
   },
