@@ -26,4 +26,3 @@ export function archive(srcPath: string, destName: string, callback: (err: strin
 
   stream.pipe(writeStream);
 }
-
